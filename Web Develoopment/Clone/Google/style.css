@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    border: border-box;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+nav {
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text {
+    padding-top: 15px;
+    font-size: 0.85rem;
+    height: 24px;
+}
+
+.header-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon{
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.header-image {
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+.header-image img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.header-text:hover, 
+.header-image:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* google logo */
+.google-logo {
+    height: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.google-logo img {
+    width: 272px;
+    height: 92px;
+    padding-bottom: 10px;
+}
